@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062522DD06FA952D67035EEC /* libPods-RETableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAD93ACC3B22B580967611A /* libPods-RETableViewDemo.a */; };
+		966D459E1E52FE6C00147298 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D459D1E52FE6C00147298 /* main.m */; };
+		966D45A11E52FE6D00147298 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D45A01E52FE6D00147298 /* AppDelegate.m */; };
+		966D45A41E52FE6D00147298 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D45A31E52FE6D00147298 /* ViewController.m */; };
+		966D45A71E52FE6D00147298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966D45A51E52FE6D00147298 /* Main.storyboard */; };
+		966D45A91E52FE6E00147298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966D45A81E52FE6E00147298 /* Assets.xcassets */; };
+		966D45AC1E52FE6E00147298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966D45AA1E52FE6E00147298 /* LaunchScreen.storyboard */; };
+		966D45B71E52FE6E00147298 /* RETableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D45B61E52FE6E00147298 /* RETableViewDemoTests.m */; };
+		966D45C21E52FE6E00147298 /* RETableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D45C11E52FE6E00147298 /* RETableViewDemoUITests.m */; };
+		966D45DD1E52FFE800147298 /* RETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D45D41E52FFE800147298 /* RETableViewCell.m */; };
+		966D45DE1E52FFE800147298 /* RETableViewCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D45D61E52FFE800147298 /* RETableViewCellStyle.m */; };
+		966D45DF1E52FFE800147298 /* RETableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D45D81E52FFE800147298 /* RETableViewItem.m */; };
+		966D45E01E52FFE800147298 /* RETableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D45DA1E52FFE800147298 /* RETableViewManager.m */; };
+		966D45E11E52FFE800147298 /* RETableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D45DC1E52FFE800147298 /* RETableViewSection.m */; };
+		966D45E41E53031F00147298 /* GrowingTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D45E31E53031F00147298 /* GrowingTextCell.m */; };
+		966D45E91E53052200147298 /* SeparatorLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D45E81E53052200147298 /* SeparatorLineCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		966D45B31E52FE6E00147298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966D45911E52FE6C00147298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 966D45981E52FE6C00147298;
+			remoteInfo = RETableViewDemo;
+		};
+		966D45BE1E52FE6E00147298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966D45911E52FE6C00147298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 966D45981E52FE6C00147298;
+			remoteInfo = RETableViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CAD93ACC3B22B580967611A /* libPods-RETableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RETableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F042DA4698E26B7D7B789D7 /* Pods-RETableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RETableViewDemo/Pods-RETableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		418864AE1F12F2A540DDFA8A /* Pods-RETableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RETableViewDemo/Pods-RETableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		966D45991E52FE6C00147298 /* RETableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RETableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		966D459D1E52FE6C00147298 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		966D459F1E52FE6C00147298 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		966D45A01E52FE6D00147298 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		966D45A21E52FE6D00147298 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		966D45A31E52FE6D00147298 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		966D45A61E52FE6D00147298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		966D45A81E52FE6E00147298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		966D45AB1E52FE6E00147298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		966D45AD1E52FE6E00147298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966D45B21E52FE6E00147298 /* RETableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		966D45B61E52FE6E00147298 /* RETableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RETableViewDemoTests.m; sourceTree = "<group>"; };
+		966D45B81E52FE6E00147298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966D45BD1E52FE6E00147298 /* RETableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		966D45C11E52FE6E00147298 /* RETableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RETableViewDemoUITests.m; sourceTree = "<group>"; };
+		966D45C31E52FE6E00147298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966D45D31E52FFE800147298 /* RETableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RETableViewCell.h; sourceTree = "<group>"; };
+		966D45D41E52FFE800147298 /* RETableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RETableViewCell.m; sourceTree = "<group>"; };
+		966D45D51E52FFE800147298 /* RETableViewCellStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RETableViewCellStyle.h; sourceTree = "<group>"; };
+		966D45D61E52FFE800147298 /* RETableViewCellStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RETableViewCellStyle.m; sourceTree = "<group>"; };
+		966D45D71E52FFE800147298 /* RETableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RETableViewItem.h; sourceTree = "<group>"; };
+		966D45D81E52FFE800147298 /* RETableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RETableViewItem.m; sourceTree = "<group>"; };
+		966D45D91E52FFE800147298 /* RETableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RETableViewManager.h; sourceTree = "<group>"; };
+		966D45DA1E52FFE800147298 /* RETableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RETableViewManager.m; sourceTree = "<group>"; };
+		966D45DB1E52FFE800147298 /* RETableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RETableViewSection.h; sourceTree = "<group>"; };
+		966D45DC1E52FFE800147298 /* RETableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RETableViewSection.m; sourceTree = "<group>"; };
+		966D45E21E53031F00147298 /* GrowingTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTextCell.h; sourceTree = "<group>"; };
+		966D45E31E53031F00147298 /* GrowingTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTextCell.m; sourceTree = "<group>"; };
+		966D45E71E53052200147298 /* SeparatorLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorLineCell.h; sourceTree = "<group>"; };
+		966D45E81E53052200147298 /* SeparatorLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorLineCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		966D45961E52FE6C00147298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062522DD06FA952D67035EEC /* libPods-RETableViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966D45AF1E52FE6E00147298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966D45BA1E52FE6E00147298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		966D45901E52FE6C00147298 = {
+			isa = PBXGroup;
+			children = (
+				966D459B1E52FE6C00147298 /* RETableViewDemo */,
+				966D45B51E52FE6E00147298 /* RETableViewDemoTests */,
+				966D45C01E52FE6E00147298 /* RETableViewDemoUITests */,
+				966D459A1E52FE6C00147298 /* Products */,
+				FA9ED2F6B9B754F27EA68914 /* Pods */,
+				C0A6866EDE8E096FBCC6B052 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		966D459A1E52FE6C00147298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966D45991E52FE6C00147298 /* RETableViewDemo.app */,
+				966D45B21E52FE6E00147298 /* RETableViewDemoTests.xctest */,
+				966D45BD1E52FE6E00147298 /* RETableViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966D459B1E52FE6C00147298 /* RETableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				966D45CF1E52FFE800147298 /* RETableViewManager */,
+				966D45EA1E53096100147298 /* AppDelegate */,
+				966D45E51E53032D00147298 /* Demo */,
+				966D45A51E52FE6D00147298 /* Main.storyboard */,
+				966D45A81E52FE6E00147298 /* Assets.xcassets */,
+				966D45AA1E52FE6E00147298 /* LaunchScreen.storyboard */,
+				966D45AD1E52FE6E00147298 /* Info.plist */,
+				966D459C1E52FE6C00147298 /* Supporting Files */,
+			);
+			path = RETableViewDemo;
+			sourceTree = "<group>";
+		};
+		966D459C1E52FE6C00147298 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				966D459D1E52FE6C00147298 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		966D45B51E52FE6E00147298 /* RETableViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				966D45B61E52FE6E00147298 /* RETableViewDemoTests.m */,
+				966D45B81E52FE6E00147298 /* Info.plist */,
+			);
+			path = RETableViewDemoTests;
+			sourceTree = "<group>";
+		};
+		966D45C01E52FE6E00147298 /* RETableViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				966D45C11E52FE6E00147298 /* RETableViewDemoUITests.m */,
+				966D45C31E52FE6E00147298 /* Info.plist */,
+			);
+			path = RETableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		966D45CF1E52FFE800147298 /* RETableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				966D45D31E52FFE800147298 /* RETableViewCell.h */,
+				966D45D41E52FFE800147298 /* RETableViewCell.m */,
+				966D45D51E52FFE800147298 /* RETableViewCellStyle.h */,
+				966D45D61E52FFE800147298 /* RETableViewCellStyle.m */,
+				966D45D71E52FFE800147298 /* RETableViewItem.h */,
+				966D45D81E52FFE800147298 /* RETableViewItem.m */,
+				966D45D91E52FFE800147298 /* RETableViewManager.h */,
+				966D45DA1E52FFE800147298 /* RETableViewManager.m */,
+				966D45DB1E52FFE800147298 /* RETableViewSection.h */,
+				966D45DC1E52FFE800147298 /* RETableViewSection.m */,
+			);
+			path = RETableViewManager;
+			sourceTree = "<group>";
+		};
+		966D45E51E53032D00147298 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				966D45A21E52FE6D00147298 /* ViewController.h */,
+				966D45A31E52FE6D00147298 /* ViewController.m */,
+				966D45E61E53033400147298 /* Cell */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		966D45E61E53033400147298 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				966D45E21E53031F00147298 /* GrowingTextCell.h */,
+				966D45E31E53031F00147298 /* GrowingTextCell.m */,
+				966D45E71E53052200147298 /* SeparatorLineCell.h */,
+				966D45E81E53052200147298 /* SeparatorLineCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		966D45EA1E53096100147298 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				966D459F1E52FE6C00147298 /* AppDelegate.h */,
+				966D45A01E52FE6D00147298 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C0A6866EDE8E096FBCC6B052 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD93ACC3B22B580967611A /* libPods-RETableViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA9ED2F6B9B754F27EA68914 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F042DA4698E26B7D7B789D7 /* Pods-RETableViewDemo.debug.xcconfig */,
+				418864AE1F12F2A540DDFA8A /* Pods-RETableViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		966D45981E52FE6C00147298 /* RETableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966D45C61E52FE6E00147298 /* Build configuration list for PBXNativeTarget "RETableViewDemo" */;
+			buildPhases = (
+				80753E927C4E1717BA3A785D /* [CP] Check Pods Manifest.lock */,
+				966D45951E52FE6C00147298 /* Sources */,
+				966D45961E52FE6C00147298 /* Frameworks */,
+				966D45971E52FE6C00147298 /* Resources */,
+				0689595792208DD0074EBCDA /* [CP] Embed Pods Frameworks */,
+				7BF33254D720A7DF2763B587 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RETableViewDemo;
+			productName = RETableViewDemo;
+			productReference = 966D45991E52FE6C00147298 /* RETableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		966D45B11E52FE6E00147298 /* RETableViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966D45C91E52FE6E00147298 /* Build configuration list for PBXNativeTarget "RETableViewDemoTests" */;
+			buildPhases = (
+				966D45AE1E52FE6E00147298 /* Sources */,
+				966D45AF1E52FE6E00147298 /* Frameworks */,
+				966D45B01E52FE6E00147298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				966D45B41E52FE6E00147298 /* PBXTargetDependency */,
+			);
+			name = RETableViewDemoTests;
+			productName = RETableViewDemoTests;
+			productReference = 966D45B21E52FE6E00147298 /* RETableViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		966D45BC1E52FE6E00147298 /* RETableViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966D45CC1E52FE6E00147298 /* Build configuration list for PBXNativeTarget "RETableViewDemoUITests" */;
+			buildPhases = (
+				966D45B91E52FE6E00147298 /* Sources */,
+				966D45BA1E52FE6E00147298 /* Frameworks */,
+				966D45BB1E52FE6E00147298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				966D45BF1E52FE6E00147298 /* PBXTargetDependency */,
+			);
+			name = RETableViewDemoUITests;
+			productName = RETableViewDemoUITests;
+			productReference = 966D45BD1E52FE6E00147298 /* RETableViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		966D45911E52FE6C00147298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Liang;
+				TargetAttributes = {
+					966D45981E52FE6C00147298 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PMP72N64FV;
+						ProvisioningStyle = Automatic;
+					};
+					966D45B11E52FE6E00147298 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PMP72N64FV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 966D45981E52FE6C00147298;
+					};
+					966D45BC1E52FE6E00147298 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PMP72N64FV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 966D45981E52FE6C00147298;
+					};
+				};
+			};
+			buildConfigurationList = 966D45941E52FE6C00147298 /* Build configuration list for PBXProject "RETableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 966D45901E52FE6C00147298;
+			productRefGroup = 966D459A1E52FE6C00147298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				966D45981E52FE6C00147298 /* RETableViewDemo */,
+				966D45B11E52FE6E00147298 /* RETableViewDemoTests */,
+				966D45BC1E52FE6E00147298 /* RETableViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		966D45971E52FE6C00147298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966D45AC1E52FE6E00147298 /* LaunchScreen.storyboard in Resources */,
+				966D45A91E52FE6E00147298 /* Assets.xcassets in Resources */,
+				966D45A71E52FE6D00147298 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966D45B01E52FE6E00147298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966D45BB1E52FE6E00147298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0689595792208DD0074EBCDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RETableViewDemo/Pods-RETableViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BF33254D720A7DF2763B587 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RETableViewDemo/Pods-RETableViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80753E927C4E1717BA3A785D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		966D45951E52FE6C00147298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966D45A41E52FE6D00147298 /* ViewController.m in Sources */,
+				966D45E41E53031F00147298 /* GrowingTextCell.m in Sources */,
+				966D45A11E52FE6D00147298 /* AppDelegate.m in Sources */,
+				966D45E91E53052200147298 /* SeparatorLineCell.m in Sources */,
+				966D45DD1E52FFE800147298 /* RETableViewCell.m in Sources */,
+				966D45DE1E52FFE800147298 /* RETableViewCellStyle.m in Sources */,
+				966D459E1E52FE6C00147298 /* main.m in Sources */,
+				966D45E01E52FFE800147298 /* RETableViewManager.m in Sources */,
+				966D45E11E52FFE800147298 /* RETableViewSection.m in Sources */,
+				966D45DF1E52FFE800147298 /* RETableViewItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966D45AE1E52FE6E00147298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966D45B71E52FE6E00147298 /* RETableViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966D45B91E52FE6E00147298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966D45C21E52FE6E00147298 /* RETableViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		966D45B41E52FE6E00147298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 966D45981E52FE6C00147298 /* RETableViewDemo */;
+			targetProxy = 966D45B31E52FE6E00147298 /* PBXContainerItemProxy */;
+		};
+		966D45BF1E52FE6E00147298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 966D45981E52FE6C00147298 /* RETableViewDemo */;
+			targetProxy = 966D45BE1E52FE6E00147298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		966D45A51E52FE6D00147298 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966D45A61E52FE6D00147298 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		966D45AA1E52FE6E00147298 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966D45AB1E52FE6E00147298 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		966D45C41E52FE6E00147298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		966D45C51E52FE6E00147298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		966D45C71E52FE6E00147298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F042DA4698E26B7D7B789D7 /* Pods-RETableViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMP72N64FV;
+				INFOPLIST_FILE = RETableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomeqc.RETableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		966D45C81E52FE6E00147298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418864AE1F12F2A540DDFA8A /* Pods-RETableViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMP72N64FV;
+				INFOPLIST_FILE = RETableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomeqc.RETableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		966D45CA1E52FE6E00147298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PMP72N64FV;
+				INFOPLIST_FILE = RETableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomeqc.RETableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RETableViewDemo.app/RETableViewDemo";
+			};
+			name = Debug;
+		};
+		966D45CB1E52FE6E00147298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PMP72N64FV;
+				INFOPLIST_FILE = RETableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomeqc.RETableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RETableViewDemo.app/RETableViewDemo";
+			};
+			name = Release;
+		};
+		966D45CD1E52FE6E00147298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PMP72N64FV;
+				INFOPLIST_FILE = RETableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomeqc.RETableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RETableViewDemo;
+			};
+			name = Debug;
+		};
+		966D45CE1E52FE6E00147298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PMP72N64FV;
+				INFOPLIST_FILE = RETableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomeqc.RETableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RETableViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		966D45941E52FE6C00147298 /* Build configuration list for PBXProject "RETableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966D45C41E52FE6E00147298 /* Debug */,
+				966D45C51E52FE6E00147298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966D45C61E52FE6E00147298 /* Build configuration list for PBXNativeTarget "RETableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966D45C71E52FE6E00147298 /* Debug */,
+				966D45C81E52FE6E00147298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966D45C91E52FE6E00147298 /* Build configuration list for PBXNativeTarget "RETableViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966D45CA1E52FE6E00147298 /* Debug */,
+				966D45CB1E52FE6E00147298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966D45CC1E52FE6E00147298 /* Build configuration list for PBXNativeTarget "RETableViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966D45CD1E52FE6E00147298 /* Debug */,
+				966D45CE1E52FE6E00147298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 966D45911E52FE6C00147298 /* Project object */;
+}
